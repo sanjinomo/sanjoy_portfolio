@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.cells.min.js"></script>
+
+
 </head>
 <body>
+    <canvas id="cyberpunk-effect"></canvas>
+
+
+
 
     <!-- Hero Section -->
     <section class="hero">
@@ -19,49 +27,50 @@
         </div>
     </section>
 
-    <!-- About Me -->
-    <section id="about" class="section fade-in">
+    <!-- About Me (Beautified) -->
+    <section id="about" class="section fade-in about-box">
         <h2>About Me</h2>
-        <p>As a graduate of Computer Science and Engineering, I possess a proficient command of Python and Java programming
-            languages. I have done research in the fields of natural language processing, data science, and machine learning. In addition to
-            my technical expertise, I exhibit excellent interpersonal and cooperation skills, which promote productive collaboration and
-            project success. I’ve been a lecturer for about a year, so I’ve gotten good at sharing knowledge. My unique combination of
-            technical expertise, problem-solving skills, and strong people skills positions me to succeed in fast-paced, team-oriented work
-            situations.
-            </p>
+        <p>I am a passionate software engineer, researcher, and lecturer specializing in AI, Machine Learning, and Software Development.</p>
+        <p>With strong problem-solving skills and a passion for innovation, I am always eager to contribute to cutting-edge research and development.</p>
     </section>
 
-   <!-- Education Section with Center-Aligned Logos -->
-<section id="education" class="section fade-in">
-    <h2>Education</h2>
+    <!-- Education -->
+    <section id="education" class="section fade-in">
+        <h2>Education</h2>
 
-    <div class="edu-exp-container">
-        <img src="images/bracu_logo.png" alt="BRAC University Logo" class="edu-exp-logo">
-        <p><strong>B.Sc. in Computer Science and Engineering</strong> <br> BRAC University (2019 - 2023)</p>
-    </div>
+        <div class="edu-exp-container">
+            <a href="https://www.bracu.ac.bd" target="_blank">
+                <img src="images/bracu_logo.png" alt="BRAC University Logo" class="edu-exp-logo">
+            </a>
+            <p><strong>B.Sc. in Computer Science and Engineering</strong> <br> BRAC University (2019 - 2023)</p>
+        </div>
 
-    <div class="edu-exp-container">
-        <img src="images/notredame_logo.png" alt="Notre Dame College Logo" class="edu-exp-logo">
-        <p><strong>H.S.C in Science</strong> <br> Notre Dame College (2016 - 2018)</p>
-    </div>
-</section>
+        <div class="edu-exp-container">
+            <a href="https://ndc.edu.bd" target="_blank">
+                <img src="images/notredame_logo.png" alt="Notre Dame College Logo" class="edu-exp-logo">
+            </a>
+            <p><strong>H.S.C in Science</strong> <br> Notre Dame College (2016 - 2018)</p>
+        </div>
+    </section>
 
-<!-- Experience Section with Center-Aligned Logos -->
-<section id="experience" class="section fade-in">
-    <h2>Experience</h2>
+    <!-- Experience -->
+    <section id="experience" class="section fade-in">
+        <h2>Experience</h2>
 
-    <div class="edu-exp-container">
-        <img src="images/diu_logo.png" alt="Daffodil International University Logo" class="edu-exp-logo">
-        <p><strong>Lecturer</strong> <br> Daffodil International University (Aug 2023 - Present)</p>
-    </div>
+        <div class="edu-exp-container">
+            <a href="https://daffodilvarsity.edu.bd" target="_blank">
+                <img src="images/diu_logo.png" alt="Daffodil International University Logo" class="edu-exp-logo">
+            </a>
+            <p><strong>Lecturer</strong> <br> Daffodil International University (Aug 2023 - Present)</p>
+        </div>
 
-    <div class="edu-exp-container">
-        <img src="images/bracu_logo.png" alt="BRAC University Logo" class="edu-exp-logo">
-        <p><strong>Student Tutor</strong> <br> BRAC University (2022 - 2023)</p>
-    </div>
-</section>
-
-
+        <div class="edu-exp-container">
+            <a href="https://www.bracu.ac.bd" target="_blank">
+                <img src="images/bracu_logo.png" alt="BRAC University Logo" class="edu-exp-logo">
+            </a>
+            <p><strong>Student Tutor</strong> <br> BRAC University (2022 - 2023)</p>
+        </div>
+    </section>
 
     <!-- Research Projects -->
     <section id="research" class="section fade-in">
