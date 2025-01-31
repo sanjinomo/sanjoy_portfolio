@@ -225,6 +225,20 @@ footer {
 }
 
 /* Neon Glow Flickering Effect */
+/* === Neon Om Symbol at Top Left === */
+.neon-om {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;  /* Adjust size as needed */
+    font-weight: bold;
+    color: #0ef; /* Neon cyan */
+    text-shadow: 0px 0px 10px #0ef, 0px 0px 20px #0ef, 0px 0px 30px #0ef;
+    animation: neonGlow 1.5s infinite alternate;
+    font-family: "Poppins", sans-serif; /* Adjust font if needed */
+}
+
+/* Neon Glow Flickering Effect */
 @keyframes neonGlow {
     0% { 
         opacity: 1; 
@@ -239,6 +253,7 @@ footer {
         text-shadow: 0px 0px 20px #0ef, 0px 0px 40px #0ef, 0px 0px 60px #0ef; 
     }
 }
+
 
 /* Neon Glow Flickering Effect */
 
